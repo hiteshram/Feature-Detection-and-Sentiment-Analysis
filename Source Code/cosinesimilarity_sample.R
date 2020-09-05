@@ -1,0 +1,7 @@
+library(lsa)
+td=tempfile()
+dir.create(td)
+write(r1[[1]],file=paste(td,"D1",sep="/"))
+write(audio_df$text,file=paste(td,"D2",sep="/"))
+myMatrix = textmatrix(td, minWordLength=1)
+res <- lsa::cosine(myMatrix[,1], myMatrix[,2])

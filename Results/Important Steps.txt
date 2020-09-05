@@ -1,0 +1,6 @@
+features_df=data.frame("Feature"=c("Battery","Camera","Storage","Performance","Others"),
+                    "Synonymns"=c("battery hours charging power life backup","camera pixels lens capture mp","ram gb internal memory space","quality software speed performance operating system os android update support","price resolution weight slim sound"),
+                    stringsAsFactors = FALSE
+                    )
+
+print(paste(features[f,"Feature"]," ",search_feature))

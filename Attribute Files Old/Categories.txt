@@ -1,0 +1,9 @@
+backup
+battery
+camera
+features
+mobile
+performance
+phone
+quality
+working
